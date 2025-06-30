@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sons e Música Ambiente</title>
-  <link rel="stylesheet" href="/src/public/assets/css/sons.css">
+  <link rel="stylesheet" href="sons.css">
 </head>
 
 <body>
@@ -18,14 +18,14 @@
     <p>Escolha um som para alertar você sobre suas tarefas.</p>
 
     <ul>
-      <li><span>🔔 Clássico</span> <button onclick="playSound('/src/public/audios/notif-classico.mp3')">▶️</button></li>
-      <li><span>💤 Suave</span> <button onclick="playSound('/src/public/audios/notif-suave.mp3')">▶️</button></li>
-      <li><span>💧 Sutil</span> <button onclick="playSound('/src/public/audios/notif-sutil.mp3')">▶️</button></li>
+      <li><span>🔔 Clássico</span> <button onclick="playSound('audios/notif-classico.mp3')">▶️</button></li>
+      <li><span>💤 Suave</span> <button onclick="playSound('audios/notif-suave.mp3')">▶️</button></li>
+      <li><span>💧 Sutil</span> <button onclick="playSound('audios/notif-sutil.mp3')">▶️</button></li>
       <li><span>🔕 Silencioso</span> <button onclick="stopSound()">⛔</button></li>
     </ul>
   </div>
 
-  <script src="/src/public/assets/js/sons.js"></script>
+  <script src="sons.js"></script>
 </body>
 
 </html>

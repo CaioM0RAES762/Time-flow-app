@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Perfil do Usuário</title>
-  <link rel="stylesheet" href="/src/public/assets/css/perfiluser.css" />
+  <link rel="stylesheet" href="perfiluser.css" />
 </head>
 <body>
   <script>
@@ -21,7 +21,7 @@
       <span class="icon">&#8942;</span>
     </header>
     <div class="profile">
-      <img id="profileImage" src="/src/public/assets/images/avatarpadrao.png" alt="Avatar" class="avatar" />
+      <img id="profileImage" src="avatarpadrao.png" alt="Avatar" class="avatar" />
       <input type="file" id="imageUpload" accept="image/*" hidden />
       <label for="imageUpload" class="change-photo">Alterar Foto</label>
       <input type="text" id="userName" placeholder="Nome de Usuário" />
@@ -35,7 +35,7 @@
     </ul>
   </div>
 
-  <script src="/src/public/assets/js/codigo.js"></script>
+  <script src="codigo.js"></script>
   <script>
     document.getElementById("btnSair").addEventListener("click", () => {
       sessionStorage.clear();
