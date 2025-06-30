@@ -1,0 +1,12 @@
+{
+  "name": "hosp-sprint03",         
+  "version": "1.0.0",
+  "main": "api/index.js",           
+  "scripts": {
+    "dev":   "json-server --watch db/db.json --static public --port 3000",
+    "start": "node api/index.js"
+  },
+  "dependencies": {
+    "json-server": "^0.17.3"
+  }
+}
